@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "두 수 비교하기", "두 수 비교하기\두 수 비교하기.pyproj", "{A8E374AA-EDFF-4CB7-92CF-D087938D4170}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E374AA-EDFF-4CB7-92CF-D087938D4170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E374AA-EDFF-4CB7-92CF-D087938D4170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A1A9D42-F155-4313-A244-7FF8B22D29E3}
+	EndGlobalSection
+EndGlobal

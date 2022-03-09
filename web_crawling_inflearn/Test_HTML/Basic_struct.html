@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> <!--만일 한글이 깨진다면 넣어준다.-->
+        <!--meta 태그는 주로 검색엔진이 이 페이지를 잘 검색할 수 있도록 하는 태그-->
+        <!--혹은 html 문서 인코딩을 바꿀 때 사용.-->
+        <title>polarmin's website</title>
+        <link rel="stylesheet" type="text/css" href="css/file.css">
+    </head>
+    <body>
+        <b>안녕</b>
+        <img src="../python-logo.png" id="python"> <!--같은 태그가 여러개 있을 때 id로 각 태그에 이름을 붙여줄 수 있다.-->
+        <img src="../python-logo.png" id="">
+        <table border="1", width=500> <!--표만들기--> 
+            <!--border는 표의 선을 나타냄. default 값은 0. 0일 경우 선이 없다.--> 
+            <thead> <!--표 목록 제목-->
+                <tr> <!--첫번째 행-->
+                    <th> <!--첫번째 열-->
+                        1*1
+                    </th>
+                    <th> <!--두번째 열-->
+                        1*2
+                    </th>
+                </tr>
+                <tr> <!--두번째 행-->
+                    <th> <!--첫번째 열-->
+                        2*1
+                    </th>
+                    <th> <!--두번째 열-->
+                        2*2
+                    </th>
+                </tr>
+            </thead>
+            <tbody> <!--표 몸통-->
+                <tr> <!--첫번째 행-->
+                    <td class="highlight"> <!--첫번째 열-->
+                        1*1
+                    </td>
+                    <td> <!--두번째 열-->
+                        1*2
+                    </td>
+                </tr>
+                <tr> <!--두번째 행-->
+                    <td> <!--첫번째 열-->
+                        2*1
+                    </td>
+                    <td> <!--두번째 열-->
+                        2*2
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
